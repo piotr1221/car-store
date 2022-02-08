@@ -2,10 +2,13 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Index</title>
 </head>
 <body>
-	<h1>ra</h1>
-	<p th:text="xd"></p>
+	<div>
+		<a th:href="@{/users/login}">Log in</a>
+		<a th:href="@{/users/register}">Register</a>
+	</div>
+
 </body>
 </html>
